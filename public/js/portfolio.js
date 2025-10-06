@@ -13,11 +13,11 @@ document.addEventListener('DOMContentLoaded', () => {
             tags: "negócios corporativo empresa profissional agência empresarial pro",
             badge: { type: 'bestseller', text: 'Mais Vendido' },
             features_card: ["5 Páginas", "Design Sóbrio", "SEO Otimizado"],
-            image_card: "imagens/modelos/empresarial-home.png",
+            image_card: "imagens/modelos/empresarial-home.webp",
             description: "A solução definitiva para empresas que buscam credibilidade e profissionalismo. Este modelo foi desenhado para transformar visitantes em clientes, com seções estratégicas que destacam seus serviços e constroem confiança.",
             images: {
-                desktop: ["imagens/modelos/empresarial-home.png", "imagens/modelos/empresarial-sobre.png", "imagens/modelos/empresarial-servicos.png", "imagens/modelos/empresarial-feedback.png", "imagens/modelos/empresarial-blog.png", "imagens/modelos/empresarial-contato.png"],
-                mobile: ["imagens/modelos-mobile/empresarial-home.png", "imagens/modelos-mobile/empresarial-servicos.png", "imagens/modelos-mobile/empresarial-feedback.png", "imagens/modelos-mobile/empresarial-blog.png", "imagens/modelos-mobile/empresarial-contato.png"]
+                desktop: ["imagens/modelos/empresarial-home.webp", "imagens/modelos/empresarial-sobre.webp", "imagens/modelos/empresarial-servicos.webp", "imagens/modelos/empresarial-feedback.webp", "imagens/modelos/empresarial-blog.webp", "imagens/modelos/empresarial-contato.webp"],
+                mobile: ["imagens/modelos-mobile/empresarial-home.webp", "imagens/modelos-mobile/empresarial-servicos.webp", "imagens/modelos-mobile/empresarial-feedback.webp", "imagens/modelos-mobile/empresarial-blog.webp", "imagens/modelos-mobile/empresarial-contato.webp"]
             },
             features: [
                 { icon: "fa-solid fa-layer-group", text: "5 Páginas estratégicas (Home, Sobre, Serviços, Blog, Contato)." },
@@ -42,11 +42,11 @@ document.addEventListener('DOMContentLoaded', () => {
             tags: "negócios corporativo executivo finanças multinacional plataforma executiva",
             badge: { type: 'new', text: 'Novo' },
             features_card: ["7 Páginas", "Área de Imprensa", "SEO Avançado"],
-            image_card: "imagens/modelos/plataforma-home.png",
+            image_card: "imagens/modelos/plataforma-home.webp",
             description: "Posicione sua empresa como líder de mercado com este modelo corporativo sofisticado. Ideal para negócios que precisam de uma plataforma completa para comunicar com investidores, talentos e a imprensa.",
             images: {
-                desktop: ["imagens/modelos/plataforma-home.png", "imagens/modelos/plataforma-sobre.png", "imagens/modelos/plataforma-servicos.png", "imagens/modelos/plataforma-blog.png", "imagens/modelos/plataforma-contato.png"],
-                mobile: ["imagens/modelos-mobile/plataforma-home.png", "imagens/modelos-mobile/plataforma-historia.png", "imagens/modelos-mobile/plataforma-equipe.png", "imagens/modelos-mobile/plataforma-servicos.png", "imagens/modelos-mobile/plataforma-blog.png", "imagens/modelos-mobile/plataforma-contato.png"]
+                desktop: ["imagens/modelos/plataforma-home.webp", "imagens/modelos/plataforma-sobre.webp", "imagens/modelos/plataforma-servicos.webp", "imagens/modelos/plataforma-blog.webp", "imagens/modelos/plataforma-contato.webp"],
+                mobile: ["imagens/modelos-mobile/plataforma-home.webp", "imagens/modelos-mobile/plataforma-historia.webp", "imagens/modelos-mobile/plataforma-equipe.webp", "imagens/modelos-mobile/plataforma-servicos.webp", "imagens/modelos-mobile/plataforma-blog.webp", "imagens/modelos-mobile/plataforma-contato.webp"]
             },
             features: [
                 { icon: "fa-solid fa-layer-group", text: "7 Páginas completas (incluindo Carreiras e Relações com Investidores)." },
@@ -66,11 +66,11 @@ document.addEventListener('DOMContentLoaded', () => {
             tags: "portfólio criativo designer artista fotógrafo freelancer vitrine criativa",
             badge: null,
             features_card: ["Galeria Filtrável", "Animações Sutis", "Blog"],
-            image_card: "imagens/modelos/vitrine-home.png",
+            image_card: "imagens/modelos/vitrine-home.webp",
             description: "Sua vitrine digital para impressionar e conquistar novos clientes. Feito para criativos, este modelo valoriza cada detalhe do seu trabalho com um design de alto impacto visual e animações elegantes.",
             images: {
-                desktop: ["imagens/modelos/vitrine-home.png", "imagens/modelos/vitrine-sobre.png", "imagens/modelos/vitrine-galeria.png", "imagens/modelos/vitrine-blog.png", "imagens/modelos/vitrine-contato.png"],
-                mobile: ["imagens/modelos-mobile/vitrine-home.png", "imagens/modelos-mobile/vitrine-sobre.png", "imagens/modelos-mobile/vitrine-galeria.png", "imagens/modelos-mobile/vitrine-blog.png", "imagens/modelos-mobile/vitrine-contato.png"]
+                desktop: ["imagens/modelos/vitrine-home.webp", "imagens/modelos/vitrine-sobre.webp", "imagens/modelos/vitrine-galeria.webp", "imagens/modelos/vitrine-blog.webp", "imagens/modelos/vitrine-contato.webp"],
+                mobile: ["imagens/modelos-mobile/vitrine-home.webp", "imagens/modelos-mobile/vitrine-sobre.webp", "imagens/modelos-mobile/vitrine-galeria.webp", "imagens/modelos-mobile/vitrine-blog.webp", "imagens/modelos-mobile/vitrine-contato.webp"]
             },
             features: [{ icon: "fa-solid fa-image", text: "Galeria de projetos com filtros e visualização em tela cheia." }, { icon: "fa-solid fa-drafting-compass", text: "Animações sutis que destacam seu trabalho sem distrair." }, { icon: "fa-solid fa-blog", text: "Blog integrado para compartilhar seu processo criativo." }, { icon: "fa-solid fa-palette", text: "Design focado na imagem, ideal para fotógrafos e designers." }, { icon: "fa-solid fa-feather-alt", text: "Layout leve e rápido para uma experiência de usuário fluida." }],
             specs: [{ icon: "fa-solid fa-file-zipper", text: "Entrega do Código-Fonte Completo." }, { icon: "fa-solid fa-photo-film", text: "Personalização com sua identidade visual." }, { icon: "fa-solid fa-upload", text: "Auxílio para colocar o site no ar." }, { icon: "fa-solid fa-shield-halved", text: "3 Meses de Suporte Técnico." }]
@@ -84,11 +84,11 @@ document.addEventListener('DOMContentLoaded', () => {
             tags: "startup pitch one-page tecnologia investidor startup vision",
             badge: null,
             features_card: ["Pitch Deck", "Seção de Time", "Roadmap"],
-            image_card: "imagens/modelos/startup-home.png",
+            image_card: "imagens/modelos/startup-home.webp",
             description: "Valide sua ideia e atraia investidores com uma página única, direta e moderna. Este modelo é perfeito para startups apresentarem seu pitch, time, produto e roadmap de forma clara e convincente.",
             images: {
-                desktop: ["imagens/modelos/startup-home.png", "imagens/modelos/startup-proposta.png", "imagens/modelos/startup-equipe.png", "imagens/modelos/startup-jornada.png", "imagens/modelos/startup-contato.png"],
-                mobile: ["imagens/modelos-mobile/startup-home.png", "imagens/modelos-mobile/startup-proposta.png", "imagens/modelos-mobile/startup-equipe.png", "imagens/modelos-mobile/startup-jornada.png", "imagens/modelos-mobile/startup-contato.png"]
+                desktop: ["imagens/modelos/startup-home.webp", "imagens/modelos/startup-proposta.webp", "imagens/modelos/startup-equipe.webp", "imagens/modelos/startup-jornada.webp", "imagens/modelos/startup-contato.webp"],
+                mobile: ["imagens/modelos-mobile/startup-home.webp", "imagens/modelos-mobile/startup-proposta.webp", "imagens/modelos-mobile/startup-equipe.webp", "imagens/modelos-mobile/startup-jornada.webp", "imagens/modelos-mobile/startup-contato.webp"]
             },
             features: [{ icon: "fa-solid fa-rocket", text: "Estrutura de Pitch Deck para apresentar sua solução." }, { icon: "fa-solid fa-users", text: "Seção de time para gerar credibilidade." }, { icon: "fa-solid fa-map-signs", text: "Roadmap visual para mostrar os próximos passos." }, { icon: "fa-solid fa-lightbulb", text: "Design inovador focado no ecossistema de tecnologia." }, { icon: "fa-solid fa-file-signature", text: "Formulário para captar interesse de investidores e parceiros." }],
             specs: [{ icon: "fa-solid fa-file-zipper", text: "Entrega do Código-Fonte Completo." }, { icon: "fa-solid fa-photo-film", text: "Personalização com sua identidade visual." }, { icon: "fa-solid fa-upload", text: "Auxílio para colocar o site no ar." }, { icon: "fa-solid fa-shield-halved", text: "3 Meses de Suporte Técnico." }]
@@ -102,11 +102,11 @@ document.addEventListener('DOMContentLoaded', () => {
             tags: "ecommerce loja venda produtos online varejo e-commerce pro",
             badge: { type: 'popular', text: 'Popular' },
             features_card: ["Carrinho Otimizado", "Checkout Simplificado", "Painel Admin"],
-            image_card: "imagens/modelos/ecom-home.png",
+            image_card: "imagens/modelos/ecom-home.webp",
             description: "Uma solução de e-commerce completa e pronta para vender. Com um design limpo e focado na experiência de compra, este modelo tem tudo o que você precisa para transformar visitantes em clientes.",
             images: {
-                desktop: ["imagens/modelos/ecom-home.png", "imagens/modelos/ecom-categorias.png", "imagens/modelos/ecom-novidades.png", "imagens/modelos/ecom-vendidos.png", "imagens/modelos/ecom-promocao.png", "imagens/modelos/ecom.png", "imagens/modelos/ecom-feedback.png"],
-                mobile: ["imagens/modelos-mobile/ecom-home.png", "imagens/modelos-mobile/ecom-categorias.png", "imagens/modelos-mobile/ecom-novidades.png", "imagens/modelos-mobile/ecom-vendidos.png", "imagens/modelos-mobile/ecom-promocao.png", "imagens/modelos-mobile/ecom.png", "imagens/modelos-mobile/ecom-feedback.png", "imagens/modelos-mobile/ecom-instagram.png"]
+                desktop: ["imagens/modelos/ecom-home.webp", "imagens/modelos/ecom-categorias.webp", "imagens/modelos/ecom-novidades.webp", "imagens/modelos/ecom-vendidos.webp", "imagens/modelos/ecom-promocao.webp", "imagens/modelos/ecom.webp", "imagens/modelos/ecom-feedback.webp"],
+                mobile: ["imagens/modelos-mobile/ecom-home.webp", "imagens/modelos-mobile/ecom-categorias.webp", "imagens/modelos-mobile/ecom-novidades.webp", "imagens/modelos-mobile/ecom-vendidos.webp", "imagens/modelos-mobile/ecom-promocao.webp", "imagens/modelos-mobile/ecom.webp", "imagens/modelos-mobile/ecom-feedback.webp", "imagens/modelos-mobile/ecom-instagram.webp"]
             },
             features: [{ icon: "fa-solid fa-shopping-cart", text: "Carrinho de compras e processo de checkout intuitivo." }, { icon: "fa-solid fa-credit-card", text: "Integração com os principais gateways de pagamento." }, { icon: "fa-solid fa-box-open", text: "Páginas de produto detalhadas com galeria de imagens e zoom." }, { icon: "fa-solid fa-search", text: "Sistema de busca e filtros avançados por categoria, preço, etc." }, { icon: "fa-solid fa-user-cog", text: "Painel de gerenciamento de produtos e pedidos." }],
             specs: [{ icon: "fa-solid fa-file-zipper", text: "Entrega do Código-Fonte Completo." }, { icon: "fa-solid fa-photo-film", text: "Personalização com sua identidade visual." }, { icon: "fa-solid fa-upload", text: "Auxílio para colocar o site no ar." }, { icon: "fa-solid fa-shield-halved", text: "3 Meses de Suporte Técnico." }]
@@ -120,11 +120,11 @@ document.addEventListener('DOMContentLoaded', () => {
             tags: "moda loja roupas ecommerce vestuário boutique digital",
             badge: null,
             features_card: ["Lookbook", "Filtros Avançados", "Instagram Feed"],
-            image_card: "imagens/modelos/boutique-home.png",
+            image_card: "imagens/modelos/boutique-home.webp",
             description: "Venda estilo com um site que entende de moda. Este modelo é visualmente deslumbrante, criado para marcas de vestuário e acessórios que desejam contar uma história e criar uma experiência de compra única.",
             images: {
-                desktop: ["imagens/modelos/boutique-home.png", "imagens/modelos/boutique-colecao.png", "imagens/modelos/boutique-lookbook.png", "imagens/modelos/boutique-sacola.png"],
-                mobile: ["imagens/modelos-mobile/boutique-home.png", "imagens/modelos-mobile/boutique-colecao.png", "imagens/modelos-mobile/boutique.png", "imagens/modelos-mobile/boutique-lookbook.png"]
+                desktop: ["imagens/modelos/boutique-home.webp", "imagens/modelos/boutique-colecao.webp", "imagens/modelos/boutique-lookbook.webp", "imagens/modelos/boutique-sacola.webp"],
+                mobile: ["imagens/modelos-mobile/boutique-home.webp", "imagens/modelos-mobile/boutique-colecao.webp", "imagens/modelos-mobile/boutique.webp", "imagens/modelos-mobile/boutique-lookbook.webp"]
             },
             features: [{ icon: "fa-solid fa-tshirt", text: "Seção 'Lookbook' para apresentar coleções de forma inspiradora." }, { icon: "fa-solid fa-heart", text: "Funcionalidade de 'Lista de Desejos' (Wishlist)." }, { icon: "fa-solid fa-tags", text: "Filtros específicos para moda (tamanho, cor, material)." }, { icon: "fab fa-instagram", text: "Integração com feed do Instagram para prova social." }, { icon: "fa-solid fa-expand-arrows-alt", text: "Visualização rápida de produtos sem sair da página de categoria." }],
             specs: [{ icon: "fa-solid fa-file-zipper", text: "Entrega do Código-Fonte Completo." }, { icon: "fa-solid fa-photo-film", text: "Personalização com sua identidade visual." }, { icon: "fa-solid fa-upload", text: "Auxílio para colocar o site no ar." }, { icon: "fa-solid fa-shield-halved", text: "3 Meses de Suporte Técnico." }]
@@ -138,11 +138,11 @@ document.addEventListener('DOMContentLoaded', () => {
             tags: "aplicativo app landing page startup download mobile app launch",
             badge: { type: 'conversion', text: 'Downloads' },
             features_card: ["Download Direto", "Vídeo Demo", "Features Visuais"],
-            image_card: "imagens/modelos/app-home.png",
+            image_card: "imagens/modelos/app-home.webp",
             description: "Transforme visitantes em usuários com uma Landing Page desenhada para conversão. Destaque as melhores features do seu aplicativo, mostre um vídeo de demonstração e facilite o download na App Store e Play Store.",
             images: {
-                desktop: ["imagens/modelos/app-home.png", "imagens/modelos/app-vantagens.png", "imagens/modelos/app-task.png", "imagens/modelos/app-ctafinal.png"],
-                mobile: ["imagens/modelos-mobile/app-home.png", "imagens/modelos-mobile/app.png", "imagens/modelos-mobile/app-dashboard.png", "imagens/modelos-mobile/app-organize.png", "imagens/modelos-mobile/app-feedback.png"]
+                desktop: ["imagens/modelos/app-home.webp", "imagens/modelos/app-vantagens.webp", "imagens/modelos/app-task.webp", "imagens/modelos/app-ctafinal.webp"],
+                mobile: ["imagens/modelos-mobile/app-home.webp", "imagens/modelos-mobile/app.webp", "imagens/modelos-mobile/app-dashboard.webp", "imagens/modelos-mobile/app-organize.webp", "imagens/modelos-mobile/app-feedback.webp"]
             },
             features: [{ icon: "fa-brands fa-google-play", text: "Botões de download para App Store e Google Play." }, { icon: "fa-solid fa-circle-play", text: "Espaço para vídeo de demonstração do app." }, { icon: "fa-solid fa-star", text: "Seção para avaliações e depoimentos de usuários." }, { icon: "fa-solid fa-mobile-screen-button", text: "Design visual que destaca as telas e funcionalidades." }, { icon: "fa-solid fa-gauge-high", text: "Otimizada para carregamento rápido em dispositivos móveis." }],
             specs: [{ icon: "fa-solid fa-file-zipper", text: "Entrega do Código-Fonte Completo." }, { icon: "fa-solid fa-photo-film", text: "Personalização com sua identidade visual." }, { icon: "fa-solid fa-upload", text: "Auxílio para colocar o site no ar." }, { icon: "fa-solid fa-shield-halved", text: "3 Meses de Suporte Técnico." }]
@@ -156,11 +156,11 @@ document.addEventListener('DOMContentLoaded', () => {
             tags: "restaurante comida delivery cardápio gourmet menu gastronômico",
             badge: null,
             features_card: ["Cardápio Online", "Reservas", "Pedidos via WhatsApp"],
-            image_card: "imagens/modelos/cardapio-home.png",
+            image_card: "imagens/modelos/cardapio-home.webp",
             description: "Desperte o apetite dos seus clientes antes mesmo de eles chegarem. Este modelo para restaurantes combina fotos de alta qualidade com um design elegante para apresentar seu cardápio, ambiente e facilitar reservas.",
             images: {
-                desktop: ["imagens/modelos/cardapio-home.png", "imagens/modelos/cardapio.png", "imagens/modelos/cardapio-galeria.png", "imagens/modelos/cardapio-reserva.png"],
-                mobile: ["imagens/modelos-mobile/cardapio-home.png", "imagens/modelos-mobile/cardapio.png", "imagens/modelos-mobile/cardapio-galeria.png", "imagens/modelos-mobile/cardapio-reserva.png", "imagens/modelos-mobile/cardapio-reserva2.png"]
+                desktop: ["imagens/modelos/cardapio-home.webp", "imagens/modelos/cardapio.webp", "imagens/modelos/cardapio-galeria.webp", "imagens/modelos/cardapio-reserva.webp"],
+                mobile: ["imagens/modelos-mobile/cardapio-home.webp", "imagens/modelos-mobile/cardapio.webp", "imagens/modelos-mobile/cardapio-galeria.webp", "imagens/modelos-mobile/cardapio-reserva.webp", "imagens/modelos-mobile/cardapio-reserva2.webp"]
             },
             features: [{ icon: "fa-solid fa-utensils", text: "Cardápio digital interativo com fotos e descrições." }, { icon: "fa-solid fa-calendar-check", text: "Sistema de reservas online integrado." }, { icon: "fa-solid fa-camera", text: "Galeria de fotos para mostrar o ambiente e os pratos." }, { icon: "fa-solid fa-map-marker-alt", text: "Mapa de localização e informações de contato fáceis de achar." }, { icon: "fab fa-whatsapp", text: "Integração com WhatsApp para pedidos de delivery." }],
             specs: [{ icon: "fa-solid fa-file-zipper", text: "Entrega do Código-Fonte Completo." }, { icon: "fa-solid fa-photo-film", text: "Personalização com sua identidade visual." }, { icon: "fa-solid fa-upload", text: "Auxílio para colocar o site no ar." }, { icon: "fa-solid fa-shield-halved", text: "3 Meses de Suporte Técnico." }]
@@ -174,11 +174,11 @@ document.addEventListener('DOMContentLoaded', () => {
             tags: "médico saúde clínica consultório agendamento clínica moderna",
             badge: null,
             features_card: ["Agendamento Online", "Corpo Clínico", "Telemedicina"],
-            image_card: "imagens/modelos/clinica-home.png",
+            image_card: "imagens/modelos/clinica-home.webp",
             description: "Transmita profissionalismo e confiança para seus pacientes. Este modelo para clínicas e consultórios é limpo, organizado e focado em facilitar o acesso à informação e o agendamento de consultas.",
             images: {
-                desktop: ["imagens/modelos/clinica-home.png", "imagens/modelos/clinica-especialidades.png", "imagens/modelos/clinica-agendamento.png", "imagens/modelos/clinica-localizacao.png"],
-                mobile: ["imagens/modelos-mobile/clinica-home.png", "imagens/modelos-mobile/clinica-especialidades.png", "imagens/modelos-mobile/clinica-doutores.png", "imagens/modelos-mobile/clinica-agendamento.png", "imagens/modelos-mobile/clinica-contato.png"]
+                desktop: ["imagens/modelos/clinica-home.webp", "imagens/modelos/clinica-especialidades.webp", "imagens/modelos/clinica-agendamento.webp", "imagens/modelos/clinica-localizacao.webp"],
+                mobile: ["imagens/modelos-mobile/clinica-home.webp", "imagens/modelos-mobile/clinica-especialidades.webp", "imagens/modelos-mobile/clinica-doutores.webp", "imagens/modelos-mobile/clinica-agendamento.webp", "imagens/modelos-mobile/clinica-contato.webp"]
             },
             features: [{ icon: "fa-solid fa-calendar-alt", text: "Sistema de agendamento de consultas online." }, { icon: "fa-solid fa-user-md", text: "Páginas para corpo clínico com perfil de cada profissional." }, { icon: "fa-solid fa-notes-medical", text: "Seção detalhada para especialidades e tratamentos." }, { icon: "fa-solid fa-laptop-medical", text: "Estrutura para informações sobre telemedicina." }, { icon: "fa-solid fa-shield-virus", text: "Design que transmite segurança, higiene e credibilidade." }],
             specs: [{ icon: "fa-solid fa-file-zipper", text: "Entrega do Código-Fonte Completo." }, { icon: "fa-solid fa-photo-film", text: "Personalização com sua identidade visual." }, { icon: "fa-solid fa-upload", text: "Auxílio para colocar o site no ar." }, { icon: "fa-solid fa-shield-halved", text: "3 Meses de Suporte Técnico." }]
@@ -192,11 +192,11 @@ document.addEventListener('DOMContentLoaded', () => {
             tags: "imobiliária imóveis venda aluguel corretor imóveis premium",
             badge: null,
             features_card: ["Busca Avançada", "Tour Virtual", "Mapa Interativo"],
-            image_card: "imagens/modelos/imovel-home.png",
+            image_card: "imagens/modelos/imovel-home.webp",
             description: "Conecte clientes aos seus imóveis com um portal moderno e funcional. Ferramentas de busca avançada, galerias de fotos imersivas e mapa interativo facilitam a jornada do comprador.",
             images: {
-                desktop: ["imagens/modelos/imovel-home.png", "imagens/modelos/imovel.png", "imagens/modelos/imovel-equipe.png", "imagens/modelos/imovel-localizacao.png", "imagens/modelos/imovel-contato.png"],
-                mobile: ["imagens/modelos-mobile/imovel-home.png", "imagens/modelos-mobile/imovel-destaque.png", "imagens/modelos-mobile/imovel-equipe.png", "imagens/modelos-mobile/imovel-localizacao.png", "imagens/modelos-mobile/imovel-contato.png"]
+                desktop: ["imagens/modelos/imovel-home.webp", "imagens/modelos/imovel.webp", "imagens/modelos/imovel-equipe.webp", "imagens/modelos/imovel-localizacao.webp", "imagens/modelos/imovel-contato.webp"],
+                mobile: ["imagens/modelos-mobile/imovel-home.webp", "imagens/modelos-mobile/imovel-destaque.webp", "imagens/modelos-mobile/imovel-equipe.webp", "imagens/modelos-mobile/imovel-localizacao.webp", "imagens/modelos-mobile/imovel-contato.webp"]
             },
             features: [{ icon: "fa-solid fa-magnifying-glass-location", text: "Filtros de busca avançada (tipo, quartos, preço, localização)." }, { icon: "fa-solid fa-vr-cardboard", text: "Suporte para tour virtual 360° e vídeos do imóvel." }, { icon: "fa-solid fa-map-location-dot", text: "Mapa interativo para visualizar imóveis por região." }, { icon: "fa-solid fa-comments-dollar", text: "Calculadora de financiamento integrada." }, { icon: "fa-solid fa-user-tie", text: "Página de perfil para cada corretor associado." }],
             specs: [{ icon: "fa-solid fa-file-zipper", text: "Entrega do Código-Fonte Completo." }, { icon: "fa-solid fa-photo-film", text: "Personalização com sua identidade visual." }, { icon: "fa-solid fa-upload", text: "Auxílio para colocar o site no ar." }, { icon: "fa-solid fa-shield-halved", text: "3 Meses de Suporte Técnico." }]
@@ -210,11 +210,11 @@ document.addEventListener('DOMContentLoaded', () => {
             tags: "eventos congresso festa show palestra ticket hub",
             badge: null,
             features_card: ["Venda de Ingressos", "Agenda/Cronograma", "Palestrantes"],
-            image_card: "imagens/modelos/tiket-home.png",
+            image_card: "imagens/modelos/tiket-home.webp",
             description: "Crie uma experiência completa para o seu evento, de congressos a shows. Apresente a programação, os palestrantes e venda ingressos diretamente pela página, de forma segura e profissional.",
             images: {
-                desktop: ["imagens/modelos/tiket-home.png", "imagens/modelos/tiket.png", "imagens/modelos/tiket-programacao.png", "imagens/modelos/tiket-convidados.png", "imagens/modelos/tiket-localizacao.png", "imagens/modelos/tiket-ingresso.png"],
-                mobile: ["imagens/modelos-mobile/tiket-home.png", "imagens/modelos-mobile/tiket.png", "imagens/modelos-mobile/tiket-programacao.png", "imagens/modelos-mobile/tiket-convidados.png", "imagens/modelos-mobile/tiket-localizacao.png", "imagens/modelos-mobile/tiket-ingresso.png"]
+                desktop: ["imagens/modelos/tiket-home.webp", "imagens/modelos/tiket.webp", "imagens/modelos/tiket-programacao.webp", "imagens/modelos/tiket-convidados.webp", "imagens/modelos/tiket-localizacao.webp", "imagens/modelos/tiket-ingresso.webp"],
+                mobile: ["imagens/modelos-mobile/tiket-home.webp", "imagens/modelos-mobile/tiket.webp", "imagens/modelos-mobile/tiket-programacao.webp", "imagens/modelos-mobile/tiket-convidados.webp", "imagens/modelos-mobile/tiket-localizacao.webp", "imagens/modelos-mobile/tiket-ingresso.webp"]
             },
             features: [{ icon: "fa-solid fa-ticket", text: "Integração com plataformas de venda de ingressos." }, { icon: "fa-solid fa-calendar-days", text: "Agenda interativa do evento com trilhas e horários." }, { icon: "fa-solid fa-microphone-lines", text: "Seção para destacar palestrantes ou artistas." }, { icon: "fa-solid fa-map-pin", text: "Mapa do local e informações de como chegar." }, { icon: "fa-solid fa-hourglass-start", text: "Contador regressivo para gerar expectativa." }],
             specs: [{ icon: "fa-solid fa-file-zipper", text: "Entrega do Código-Fonte Completo." }, { icon: "fa-solid fa-photo-film", text: "Personalização com sua identidade visual." }, { icon: "fa-solid fa-upload", text: "Auxílio para colocar o site no ar." }, { icon: "fa-solid fa-shield-halved", text: "3 Meses de Suporte Técnico." }]
@@ -228,11 +228,11 @@ document.addEventListener('DOMContentLoaded', () => {
             tags: "construtora engenharia obra serviço arquitetura portfólio de obras",
             badge: null,
             features_card: ["Portfólio de Obras", "Serviços Detalhados", "Orçamento Online"],
-            image_card: "imagens/modelos/obras-home.png",
+            image_card: "imagens/modelos/obras-home.webp",
             description: "Apresente a solidez e a qualidade da sua construtora ou escritório de engenharia. Este modelo é focado em exibir seu portfIO de obras, detalhar seus serviços e facilitar a solicitação de orçamentos.",
             images: {
-                desktop: ["imagens/modelos/obras-home.png", "imagens/modelos/obras-projetos.png", "imagens/modelos/obras-servicos.png", "imagens/modelos/obras-orcamento.png"],
-                mobile: ["imagens/modelos-mobile/obras-home.png", "imagens/modelos-mobile/obras-servicos.png", "imagens/modelos-mobile/obras-projetos.png", "imagens/modelos-mobile/obras-orcamento.png"]
+                desktop: ["imagens/modelos/obras-home.webp", "imagens/modelos/obras-projetos.webp", "imagens/modelos/obras-servicos.webp", "imagens/modelos/obras-orcamento.webp"],
+                mobile: ["imagens/modelos-mobile/obras-home.webp", "imagens/modelos-mobile/obras-servicos.webp", "imagens/modelos-mobile/obras-projetos.webp", "imagens/modelos-mobile/obras-orcamento.webp"]
             },
             features: [{ icon: "fa-solid fa-hard-hat", text: "Galeria de projetos e obras realizadas com antes/depois." }, { icon: "fa-solid fa-list-check", text: "Descrição detalhada das áreas de atuação e serviços." }, { icon: "fa-solid fa-calculator", text: "Formulário de orçamento detalhado e fácil de preencher." }, { icon: "fa-solid fa-award", text: "Área para certificações e prêmios da empresa." }, { icon: "fa-solid fa-users-gear", text: "Design robusto que inspira confiança e profissionalismo." }],
             specs: [{ icon: "fa-solid fa-file-zipper", text: "Entrega do Código-Fonte Completo." }, { icon: "fa-solid fa-photo-film", text: "Personalização com sua identidade visual." }, { icon: "fa-solid fa-upload", text: "Auxílio para colocar o site no ar." }, { icon: "fa-solid fa-shield-halved", text: "3 Meses de Suporte Técnico." }]
@@ -246,32 +246,32 @@ document.addEventListener('DOMContentLoaded', () => {
             tags: "mmorpg aruanã jogo online brasil medieval fantasia magia rpg",
             badge: null,
             features_card: ["Lore Épico", "Classes Jogáveis", "Mundo Interativo"],
-            image_card: "imagens/modelos/mmo-home.png",
+            image_card: "imagens/modelos/mmo-home.webp",
             description: "Entre no universo de Aruanã, um MMORPG inspirado em um Brasil medieval alternativo. Explore facções, classes únicas, biomas deslumbrantes e mergulhe em uma narrativa épica onde magia e natureza se entrelaçam.",
             images: {
                 desktop: [
-                    "imagens/modelos/mmo-home.png",
-                    "imagens/modelos/mmo-legado.png",
-                    "imagens/modelos/mmo-classes.png",
-                    "imagens/modelos/mmo-mecanicas.png",
-                    "imagens/modelos/mmo-mundo.png",
-                    "imagens/modelos/mmo-faccoes.png",
-                    "imagens/modelos/mmo-personagens.png",
-                    "imagens/modelos/mmo-galeria.png",
-                    "imagens/modelos/mmo-blog.png",
-                    "imagens/modelos/mmo-requisitos.png",
-                    "imagens/modelos/mmo-loja.png",
+                    "imagens/modelos/mmo-home.webp",
+                    "imagens/modelos/mmo-legado.webp",
+                    "imagens/modelos/mmo-classes.webp",
+                    "imagens/modelos/mmo-mecanicas.webp",
+                    "imagens/modelos/mmo-mundo.webp",
+                    "imagens/modelos/mmo-faccoes.webp",
+                    "imagens/modelos/mmo-personagens.webp",
+                    "imagens/modelos/mmo-galeria.webp",
+                    "imagens/modelos/mmo-blog.webp",
+                    "imagens/modelos/mmo-requisitos.webp",
+                    "imagens/modelos/mmo-loja.webp",
                 ],
                 mobile: [
-                    "imagens/modelos-mobile/mmo-home.png",
-                    "imagens/modelos-mobile/mmo-legado.png",
-                    "imagens/modelos-mobile/mmo-classes.png",
-                    "imagens/modelos-mobile/mmo-mecanicas.png",
-                    "imagens/modelos-mobile/mmo-mundo.png",
-                    "imagens/modelos-mobile/mmo-faccoes.png",
-                    "imagens/modelos-mobile/mmo-personagens.png",
-                    "imagens/modelos-mobile/mmo-galeria.png",
-                    "imagens/modelos-mobile/mmo-noticias.png"
+                    "imagens/modelos-mobile/mmo-home.webp",
+                    "imagens/modelos-mobile/mmo-legado.webp",
+                    "imagens/modelos-mobile/mmo-classes.webp",
+                    "imagens/modelos-mobile/mmo-mecanicas.webp",
+                    "imagens/modelos-mobile/mmo-mundo.webp",
+                    "imagens/modelos-mobile/mmo-faccoes.webp",
+                    "imagens/modelos-mobile/mmo-personagens.webp",
+                    "imagens/modelos-mobile/mmo-galeria.webp",
+                    "imagens/modelos-mobile/mmo-noticias.webp"
                 ]
             },
             features: [
@@ -299,11 +299,11 @@ document.addEventListener('DOMContentLoaded', () => {
             tags: "freelancer portfolio design dev programador designer autônomo",
             badge: null,
             features_card: ["Portfólio Moderno", "Contato Fácil", "Serviços Listados"],
-            image_card: "imagens/modelos/free-home.png",
+            image_card: "imagens/modelos/free-home.webp",
             description: "Mostre seu talento como freelancer com um site elegante. Apresente seu portfólio, depoimentos de clientes e facilite o contato para novos trabalhos.",
             images: {
-                desktop: ["imagens/modelos/free-home.png", "imagens/modelos/free-especialidades.png", "imagens/modelos/free-portfolio.png", "imagens/modelos/free-feedback.png", "imagens/modelos/free-contato.png"],
-                mobile: ["imagens/modelos-mobile/free-home.png", "imagens/modelos-mobile/free-especialidades.png", "imagens/modelos-mobile/free-portfolio.png", "imagens/modelos-mobile/free-feedback.png", "imagens/modelos-mobile/free-contato.png"]
+                desktop: ["imagens/modelos/free-home.webp", "imagens/modelos/free-especialidades.webp", "imagens/modelos/free-portfolio.webp", "imagens/modelos/free-feedback.webp", "imagens/modelos/free-contato.webp"],
+                mobile: ["imagens/modelos-mobile/free-home.webp", "imagens/modelos-mobile/free-especialidades.webp", "imagens/modelos-mobile/free-portfolio.webp", "imagens/modelos-mobile/free-feedback.webp", "imagens/modelos-mobile/free-contato.webp"]
             },
             features: [
                 { icon: "fa-solid fa-briefcase", text: "Exibição clara de serviços e áreas de atuação." },
@@ -665,9 +665,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!carousel) return;
 
         const images = [
-            "imagens/modelos/imovel-home.png",
-            "imagens/modelos/ecom-home.png",
-            "imagens/modelos/startup-home.png"
+            "imagens/modelos/imovel-home.webp",
+            "imagens/modelos/ecom-home.webp",
+            "imagens/modelos/startup-home.webp"
         ];
 
         images.forEach((src, index) => {

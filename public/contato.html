@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <!-- Google Consent Mode - Default Settings -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('consent', 'default', {
+            'ad_storage': 'denied',
+            'ad_user_data': 'denied',
+            'ad_personalization': 'denied',
+            'analytics_storage': 'denied'
+        });
+    </script>
 
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-43JY2MX5EN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-43JY2MX5EN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'G-43JY2MX5EN');
-</script>
+      gtag('config', 'G-43JY2MX5EN');
+    </script>
 
     <!-- Metadados Essenciais -->
     <meta charset="UTF-8">
@@ -27,18 +38,18 @@
     <meta property="og:description" content="Entre em contato com a Lumin Interactive para tirar dúvidas, solicitar orçamentos ou conhecer nossos serviços de desenvolvimento web.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.lumininteractive.com.br/contato/"> <!-- URL específica -->
-    <meta property="og:image" content="imagens/logobrancalumin.png"> <!-- Imagem de compartilhamento -->
+    <meta property="og:image" content="imagens/logobrancalumin.webp"> <!-- Imagem de compartilhamento -->
     <meta property="og:locale" content="pt_BR">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Contato | Lumin Interactive">
     <meta name="twitter:description" content="Entre em contato com a Lumin Interactive para tirar dúvidas, solicitar orçamentos ou conhecer nossos serviços de desenvolvimento web.">
-    <meta name="twitter:image" content="imagens/logobrancalumin.png"> <!-- Mesma imagem -->
+    <meta name="twitter:image" content="imagens/logobrancalumin.webp"> <!-- Mesma imagem -->
 
-    <!-- Favicons (usando a mesma logo) -->
-    <link rel="icon" href="imagens/logobrancalumin.png" type="image/png">
-    <link rel="apple-touch-icon" href="imagens/logobrancalumin.png" sizes="180x180">
+    <!-- Favicons -->
+    <link rel="icon" href="imagens/luminazul.webp" type="image.webp">
+    <link rel="apple-touch-icon" href="imagens/luminazul.webp" sizes="180x180">
 
     <!-- Cor da Barra de Endereço (Mobile) -->
     <meta name="theme-color" content="#1a1a1a">
@@ -86,35 +97,35 @@
     <div class="container">
         <div class="header-inner">
             <!-- Logo à esquerda -->
-            <a href="/" class="logo">
-                <img src="imagens/logobrancalumin.png" alt="Lumin Interactive Logo" class="logo-image" style="height: 60px;">
+            <a href="/" class="logo" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'header_logo_contato'});">
+                <img src="imagens/logobrancalumin.webp" alt="Lumin Interactive Logo" class="logo-image" style="height: 60px;">
                 <span class="logo-text">Lumin Interactive</span>
             </a>
 
             <!-- Navegação central (visível apenas no desktop) -->
             <nav class="nav-center" id="main-nav">
                 <ul class="nav-menu">
-                    <li><a href="index.html" class="nav-link">Inicio</a></li>
-                    <li><a href="servicos.html" class="nav-link">Serviços</a></li>
-                    <li><a href="portfolio.html" class="nav-link">Modelos</a></li>
-                    <li><a href="sobre.html" class="nav-link">Sobre Nós</a></li>
-                    <li><a href="contato.html" class="nav-link active">Contato</a></li>
+                    <li><a href="index.html" class="nav-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'header_nav_inicio_contato'});">Inicio</a></li>
+                    <li><a href="servicos.html" class="nav-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'header_nav_servicos_contato'});">Serviços</a></li>
+                    <li><a href="portfolio.html" class="nav-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'header_nav_modelos_contato'});">Modelos</a></li>
+                    <li><a href="sobre.html" class="nav-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'header_nav_sobre_contato'});">Sobre Nós</a></li>
+                    <li><a href="contato.html" class="nav-link active" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'header_nav_contato_contato'});">Contato</a></li>
                 </ul>
             </nav>
 
             <!-- Ações e Menu à Direita (Desktop) -->
             <div class="header-right-side">
-                <a href="orcamento.html" class="btn btn-primary free-quote-btn">Orçamento Grátis</a>
+                <a href="orcamento.html" class="btn btn-primary free-quote-btn" onclick="gtag('event', 'click', {'event_category': 'cta_click', 'event_label': 'header_orcamento_gratis_contato'});">Orçamento Grátis</a>
                 <div class="settings-menu" id="settings-menu">
                     <button class="settings-toggle" id="settings-toggle" aria-label="Abrir opções">
                         <i class="fas fa-ellipsis-v"></i>
                     </button>
                     <div class="settings-dropdown">
-                        <a href="#" class="dropdown-item" id="dark-mode-toggle">
+                        <a href="#" class="dropdown-item" id="dark-mode-toggle" onclick="gtag('event', 'click', {'event_category': 'ui_interaction', 'event_label': 'toggle_dark_mode_desktop_contato'});">
                             <i class="fas fa-adjust"></i>
                             <span id="dark-mode-text">Modo Escuro</span>
                         </a>
-                        <a href="config.html" class="dropdown-item">
+                        <a href="config.html" class="dropdown-item" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'header_configuracoes_contato'});">
                             <i class="fas fa-cog"></i>
                             <span>Configurações</span>
                         </a>
@@ -133,17 +144,17 @@
     <div class="mobile-nav" id="mobile-nav">
         <div class="mobile-nav-content">
             <ul class="mobile-menu">
-                <li><a href="index.html" class="mobile-link"><i class="fas fa-home"></i>Inicio</a></li>
-                <li><a href="servicos.html" class="mobile-link"><i class="fas fa-briefcase"></i>Serviços</a></li>
-                <li><a href="portfolio.html" class="mobile-link"><i class="fas fa-layer-group"></i>Modelos</a></li>
-                <li><a href="sobre.html" class="mobile-link"><i class="fas fa-users"></i>Sobre Nós</a></li>
-                <li><a href="contato.html" class="mobile-link active"><i class="fas fa-envelope"></i>Contato</a></li>
-                <li><a href="orcamento.html" class="btn btn-primary mobile-btn">Orçamento Grátis</a></li>
+                <li><a href="index.html" class="mobile-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'mobile_nav_inicio_contato'});"><i class="fas fa-home"></i>Inicio</a></li>
+                <li><a href="servicos.html" class="mobile-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'mobile_nav_servicos_contato'});"><i class="fas fa-briefcase"></i>Serviços</a></li>
+                <li><a href="portfolio.html" class="mobile-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'mobile_nav_modelos_contato'});"><i class="fas fa-layer-group"></i>Modelos</a></li>
+                <li><a href="sobre.html" class="mobile-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'mobile_nav_sobre_contato'});"><i class="fas fa-users"></i>Sobre Nós</a></li>
+                <li><a href="contato.html" class="mobile-link active" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'mobile_nav_contato_contato'});"><i class="fas fa-envelope"></i>Contato</a></li>
+                <li><a href="orcamento.html" class="btn btn-primary mobile-btn" onclick="gtag('event', 'click', {'event_category': 'cta_click', 'event_label': 'mobile_orcamento_gratis_contato'});">Orçamento Grátis</a></li>
             </ul>
             <div class="mobile-nav-divider"></div>
             <ul class="mobile-menu">
-                <li><a href="#" class="mobile-link" id="mobile-dark-mode-toggle"><i class="fas fa-adjust"></i><span id="mobile-dark-mode-text">Modo Escuro</span></a></li>
-                <li><a href="config.html" class="mobile-link"><i class="fas fa-cog"></i>Configurações</a></li>
+                <li><a href="#" class="mobile-link" id="mobile-dark-mode-toggle" onclick="gtag('event', 'click', {'event_category': 'ui_interaction', 'event_label': 'toggle_dark_mode_mobile_contato'});"><i class="fas fa-adjust"></i><span id="mobile-dark-mode-text">Modo Escuro</span></a></li>
+                <li><a href="config.html" class="mobile-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'mobile_configuracoes_contato'});"><i class="fas fa-cog"></i>Configurações</a></li>
             </ul>
         </div>
     </div>
@@ -157,16 +168,16 @@
                     <h1>Transforme suas ideias em <span class="highlight">realidade digital</span></h1>
                     <p class="subtitle">Nossa equipe especializada está pronta para entender suas necessidades e oferecer a solução perfeita para seu projeto</p>
                     <div class="hero-cta">
-                        <a href="#contact-form" class="btn btn-primary btn-lg">
+                        <a href="#contact-form" class="btn btn-primary btn-lg" onclick="gtag('event', 'click', {'event_category': 'cta_click', 'event_label': 'hero_enviar_mensagem_contato'});">
                             <i class="fas fa-paper-plane"></i> Enviar Mensagem
                         </a>
-                        <a href="https://wa.me/5567996030671" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg">
+                        <a href="https://wa.me/5567996030671" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg" onclick="gtag('event', 'click', {'event_category': 'cta_click', 'event_label': 'hero_whatsapp_contato'});">
                             <i class="fab fa-whatsapp"></i> Conversar por WhatsApp
                         </a>
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="imagens/imagem-contato.png" alt="Equipe de desenvolvimento digital" loading="lazy">
+                    <img src="imagens/imagem-contato.webp" alt="Equipe de desenvolvimento digital" loading="lazy">
                 </div>
             </div>
         </div>
@@ -236,10 +247,10 @@
                         </div>
                         <div class="form-group checkbox-group">
                             <input type="checkbox" id="consent" name="consent" required>
-                            <label for="consent">Concordo com a <a href="privacidade.html" class="privacy-link">política de privacidade</a> e autorizo o contato*</label>
+                            <label for="consent">Concordo com a <a href="privacidade.html" class="privacy-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'form_politica_privacidade_contato'});">política de privacidade</a> e autorizo o contato*</label>
                         </div>
                         <span class="error-message" id="consent-error"></span>
-                        <button type="submit" class="btn btn-primary submit-btn">
+                        <button type="submit" class="btn btn-primary submit-btn" onclick="gtag('event', 'generate_lead', {'event_category': 'lead_generation', 'event_label': 'contact_form_submit'});">
                             <span class="submit-text">Enviar Mensagem</span>
                             <span class="loading-icon"><i class="fas fa-spinner fa-spin"></i></span>
                             <i class="fas fa-paper-plane submit-icon"></i>
@@ -265,28 +276,28 @@
                                 <i class="fas fa-phone-alt"></i>
                                 <div class="info-text">
                                     <strong>Telefone</strong>
-                                    <a href="tel:+5567996030671">(67) 99603-0671</a>
+                                    <a href="tel:+5567996030671" onclick="gtag('event', 'click', {'event_category': 'contact', 'event_label': 'info_telefone_contato'});">(67) 99603-0671</a>
                                 </div>
                             </div>
                             <div class="info-item">
                                 <i class="fab fa-whatsapp"></i>
                                 <div class="info-text">
                                     <strong>WhatsApp</strong>
-                                    <a href="https://wa.me/5567996030671" target="_blank" rel="noopener noreferrer">(67) 99603-0671</a>
+                                    <a href="https://wa.me/5567996030671" target="_blank" rel="noopener noreferrer" onclick="gtag('event', 'click', {'event_category': 'contact', 'event_label': 'info_whatsapp_contato'});">(67) 99603-0671</a>
                                 </div>
                             </div>
                             <div class="info-item">
                                 <i class="fas fa-envelope"></i>
                                 <div class="info-text">
                                     <strong>E-mail Principal</strong>
-                                    <a href="mailto:contato@lumininteractive.com">contato@lumininteractive.com</a>
+                                    <a href="mailto:contato@lumininteractive.com" onclick="gtag('event', 'click', {'event_category': 'contact', 'event_label': 'info_email_principal_contato'});">contato@lumininteractive.com</a>
                                 </div>
                             </div>
                             <div class="info-item">
                                 <i class="fas fa-headset"></i>
                                 <div class="info-text">
                                     <strong>Suporte</strong>
-                                    <a href="mailto:suporte@lumininteractive.com">suporte@lumininteractive.com</a>
+                                    <a href="mailto:suporte@lumininteractive.com" onclick="gtag('event', 'click', {'event_category': 'contact', 'event_label': 'info_suporte_contato'});">suporte@lumininteractive.com</a>
                                 </div>
                             </div>
                         </div>
@@ -295,10 +306,10 @@
 
                         <h4 class="social-title">Siga-nos</h4>
                         <div class="social-links">
-                            <a href="#" class="social-link facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" class="social-link instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link facebook" aria-label="Facebook" onclick="gtag('event', 'click', {'event_category': 'social_media', 'event_label': 'social_facebook_contato'});"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link instagram" aria-label="Instagram" onclick="gtag('event', 'click', {'event_category': 'social_media', 'event_label': 'social_instagram_contato'});"><i class="fab fa-instagram"></i></a>
                             
-                            <a href="#" class="social-link youtube" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="social-link youtube" aria-label="YouTube" onclick="gtag('event', 'click', {'event_category': 'social_media', 'event_label': 'social_youtube_contato'});"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
                 </aside>
@@ -311,42 +322,42 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-about">
-                    <a href="index.html" class="footer-logo">
-                        <img src="imagens/logobrancalumin.png" alt="Lumin Interactive Logo" class="footer-logo-img">
+                    <a href="index.html" class="footer-logo" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_logo_contato'});">
+                        <img src="imagens/logobrancalumin.webp" alt="Lumin Interactive Logo" class="footer-logo-img">
                         <span class="logo-text">Lumin Interactive</span>
                     </a>
                     <p>Transformando ideias em experiências digitais memoráveis.</p>
                     <div class="footer-social">
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/lumin.interactive/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="https://wa.me/5567996030671" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="Facebook" onclick="gtag('event', 'click', {'event_category': 'social_media', 'event_label': 'footer_facebook_contato'});"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/lumin.interactive/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" onclick="gtag('event', 'click', {'event_category': 'social_media', 'event_label': 'footer_instagram_contato'});"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/5567996030671" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" onclick="gtag('event', 'click', {'event_category': 'social_media', 'event_label': 'footer_whatsapp_contato'});"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
                 <div class="footer-links">
                     <h3>Links Rápidos</h3>
                     <ul>
-                        <li><a href="index.html">Início</a></li>
-                        <li><a href="servicos.html">Serviços</a></li>
-                        <li><a href="portfolio.html">Modelos</a></li>
-                        <li><a href="sobre.html">Sobre Nós</a></li>
-                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="index.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_nav_inicio_contato'});">Início</a></li>
+                        <li><a href="servicos.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_nav_servicos_contato'});">Serviços</a></li>
+                        <li><a href="portfolio.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_nav_modelos_contato'});">Modelos</a></li>
+                        <li><a href="sobre.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_nav_sobre_contato'});">Sobre Nós</a></li>
+                        <li><a href="contato.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_nav_contato_contato'});">Contato</a></li>
                     </ul>
                 </div>
                 <div class="footer-services">
                     <h3>Nossos Serviços</h3>
                     <ul>
-                        <li><a href="servicos.html">Reestruturação de Site</a></li>
-                        <li><a href="servicos.html">Manutenção Preventiva</a></li>
-                        <li><a href="servicos.html">Remoção de Vírus e Malware</a></li>
-                        <li><a href="servicos.html">Configuração de Firewall e Rede</a></li>
+                        <li><a href="servicos.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_servico_reestruturacao_contato'});">Reestruturação de Site</a></li>
+                        <li><a href="servicos.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_servico_manutencao_contato'});">Manutenção Preventiva</a></li>
+                        <li><a href="servicos.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_servico_remocao_virus_contato'});">Remoção de Vírus e Malware</a></li>
+                        <li><a href="servicos.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_servico_firewall_contato'});">Configuração de Firewall e Rede</a></li>
                     </ul>
                 </div>
                 <div class="footer-contact">
                     <h3>Contato</h3>
                     <ul>
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:contato@lumininteractive.com.br">contato@lumininteractive.com.br</a></li>
-                        <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/5567996030671" target="_blank" rel="noopener noreferrer">(67) 99603-0671</a></li>
-                        <li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/lumin.interactive/" target="_blank" rel="noopener noreferrer">@lumin.interactive</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:contato@lumininteractive.com.br" onclick="gtag('event', 'click', {'event_category': 'contact', 'event_label': 'footer_email_contato'});">contato@lumininteractive.com.br</a></li>
+                        <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/5567996030671" target="_blank" rel="noopener noreferrer" onclick="gtag('event', 'click', {'event_category': 'contact', 'event_label': 'footer_whatsapp_contato_contato'});">(67) 99603-0671</a></li>
+                        <li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/lumin.interactive/" target="_blank" rel="noopener noreferrer" onclick="gtag('event', 'click', {'event_category': 'contact', 'event_label': 'footer_instagram_contato_contato'});">@lumin.interactive</a></li>
                     </ul>
                 </div>
             </div>
@@ -354,8 +365,8 @@
                 <p>&copy; <span id="current-year">2025</span> Lumin Interactive. Todos os direitos reservados.</p>
                 <p>CNPJ: 62.601.543/0001-11</p>
                 <div class="footer-legal">
-                    <a href="privacidade.html">Política de Privacidade</a>
-                    <a href="termos.html">Termos de Serviço</a>
+                    <a href="privacidade.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_politica_privacidade_contato'});">Política de Privacidade</a>
+                    <a href="termos.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_termos_servico_contato'});">Termos de Serviço</a>
                 </div>
             </div>
         </div>
@@ -363,7 +374,7 @@
 
 
     <!-- Botão Voltar ao Topo -->
-    <a href="#" class="back-to-top" id="back-to-top" aria-label="Voltar ao topo">
+    <a href="#" class="back-to-top" id="back-to-top" aria-label="Voltar ao topo" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'back_to_top_contato'});">
         <i class="fas fa-arrow-up"></i>
     </a>
 
@@ -378,7 +389,7 @@
                 </p>
             </div>
             <div class="cookie-banner-actions">
-                <button id="cookie-acknowledge-btn" class="cookie-btn-primary">Entendi</button>
+                <button id="cookie-acknowledge-btn" class="cookie-btn-primary" onclick="gtag('event', 'click', {'event_category': 'cookie_consent', 'event_label': 'cookie_banner_acknowledged_contato'});">Entendi</button>
             </div>
         </div>
     </div>
@@ -387,8 +398,8 @@
     <script src="js/contato.js" defer></script>
     <script src="js/global.js" defer></script> 
     <script src="js/cookies.js" defer></script>
- 
- <!-- REGISTRO DO SERVICE WORKER (PARA CACHE E OFFLINE) -->
+
+<!-- REGISTRO DO SERVICE WORKER (PARA CACHE E OFFLINE) -->
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {

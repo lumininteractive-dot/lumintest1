@@ -2,15 +2,15 @@
 <html lang="pt-BR">
 <head>
 
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-43JY2MX5EN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-43JY2MX5EN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'G-43JY2MX5EN');
-</script>
+      gtag('config', 'G-43JY2MX5EN');
+    </script>
 
     <!-- Metadados Essenciais -->
     <meta charset="UTF-8">
@@ -29,18 +29,18 @@
     <meta property="og:description" content="Soluções digitais personalizadas para seu negócio. Sites modernos, responsivos e de alto desempenho.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.lumininteractive.com.br/">
-    <meta property="og:image" content="imagens/logobrancalumin.png">
+    <meta property="og:image" content="imagens/logobrancalumin.webp">
     <meta property="og:locale" content="pt_BR">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Lumin Interactive | Criação de Sites Profissionais">
     <meta name="twitter:description" content="Sites modernos, responsivos e prontos para o seu negócio.">
-    <meta name="twitter:image" content="imagens/logobrancalumin.png">
+    <meta name="twitter:image" content="imagens/logobrancalumin.webp">
 
     <!-- Favicons -->
-    <link rel="icon" href="imagens/logobrancalumin.png" type="image/png">
-    <link rel="apple-touch-icon" href="imagens/logobrancalumin.png" sizes="180x180">
+    <link rel="icon" href="imagens/luminazul.webp" type="image/webp">
+    <link rel="apple-touch-icon" href="imagens/luminazul.webp" sizes="180x180">
 
     <!-- Fontes e Ícones -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -85,35 +85,35 @@
     <div class="container">
         <div class="header-inner">
             <!-- Logo à esquerda -->
-            <a href="/" class="logo">
-                <img src="imagens/logobrancalumin.png" alt="Lumin Interactive Logo" class="logo-image" style="height: 60px;">
+            <a href="/" class="logo" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'header_logo'});">
+                <img src="imagens/logobrancalumin.webp" alt="Lumin Interactive Logo" class="logo-image" style="height: 60px;">
                 <span class="logo-text">Lumin Interactive</span>
             </a>
 
             <!-- Navegação central (visível apenas no desktop) -->
             <nav class="nav-center" id="main-nav">
                 <ul class="nav-menu">
-                    <li><a href="index.html" class="nav-link active">Inicio</a></li>
-                    <li><a href="servicos.html" class="nav-link">Serviços</a></li>
-                    <li><a href="portfolio.html" class="nav-link">Modelos</a></li>
-                    <li><a href="sobre.html" class="nav-link">Sobre Nós</a></li>
-                    <li><a href="contato.html" class="nav-link">Contato</a></li>
+                    <li><a href="index.html" class="nav-link active" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'header_nav_inicio'});">Inicio</a></li>
+                    <li><a href="servicos.html" class="nav-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'header_nav_servicos'});">Serviços</a></li>
+                    <li><a href="portfolio.html" class="nav-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'header_nav_modelos'});">Modelos</a></li>
+                    <li><a href="sobre.html" class="nav-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'header_nav_sobre'});">Sobre Nós</a></li>
+                    <li><a href="contato.html" class="nav-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'header_nav_contato'});">Contato</a></li>
                 </ul>
             </nav>
 
             <!-- Ações e Menu à Direita (Desktop) -->
             <div class="header-right-side">
-                <a href="orcamento.html" class="btn btn-primary free-quote-btn">Orçamento Grátis</a>
+                <a href="orcamento.html" class="btn btn-primary free-quote-btn" onclick="gtag('event', 'click', {'event_category': 'cta_click', 'event_label': 'header_orcamento_gratis'});">Orçamento Grátis</a>
                 <div class="settings-menu" id="settings-menu">
                     <button class="settings-toggle" id="settings-toggle" aria-label="Abrir opções">
                         <i class="fas fa-ellipsis-v"></i>
                     </button>
                     <div class="settings-dropdown">
-                        <a href="#" class="dropdown-item" id="dark-mode-toggle">
+                        <a href="#" class="dropdown-item" id="dark-mode-toggle" onclick="gtag('event', 'click', {'event_category': 'ui_interaction', 'event_label': 'toggle_dark_mode_desktop'});">
                             <i class="fas fa-adjust"></i>
                             <span id="dark-mode-text">Modo Escuro</span>
                         </a>
-                        <a href="config.html" class="dropdown-item">
+                        <a href="config.html" class="dropdown-item" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'header_configuracoes'});">
                             <i class="fas fa-cog"></i>
                             <span>Configurações</span>
                         </a>
@@ -132,17 +132,17 @@
     <div class="mobile-nav" id="mobile-nav">
         <div class="mobile-nav-content">
             <ul class="mobile-menu">
-                <li><a href="index.html" class="mobile-link active"><i class="fas fa-home"></i>Inicio</a></li>
-                <li><a href="servicos.html" class="mobile-link"><i class="fas fa-briefcase"></i>Serviços</a></li>
-                <li><a href="portfolio.html" class="mobile-link"><i class="fas fa-layer-group"></i>Modelos</a></li>
-                <li><a href="sobre.html" class="mobile-link"><i class="fas fa-users"></i>Sobre Nós</a></li>
-                <li><a href="contato.html" class="mobile-link"><i class="fas fa-envelope"></i>Contato</a></li>
-                <li><a href="orcamento.html" class="btn btn-primary mobile-btn">Orçamento Grátis</a></li>
+                <li><a href="index.html" class="mobile-link active" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'mobile_nav_inicio'});"><i class="fas fa-home"></i>Inicio</a></li>
+                <li><a href="servicos.html" class="mobile-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'mobile_nav_servicos'});"><i class="fas fa-briefcase"></i>Serviços</a></li>
+                <li><a href="portfolio.html" class="mobile-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'mobile_nav_modelos'});"><i class="fas fa-layer-group"></i>Modelos</a></li>
+                <li><a href="sobre.html" class="mobile-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'mobile_nav_sobre'});"><i class="fas fa-users"></i>Sobre Nós</a></li>
+                <li><a href="contato.html" class="mobile-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'mobile_nav_contato'});"><i class="fas fa-envelope"></i>Contato</a></li>
+                <li><a href="orcamento.html" class="btn btn-primary mobile-btn" onclick="gtag('event', 'click', {'event_category': 'cta_click', 'event_label': 'mobile_orcamento_gratis'});">Orçamento Grátis</a></li>
             </ul>
             <div class="mobile-nav-divider"></div>
             <ul class="mobile-menu">
-                <li><a href="#" class="mobile-link" id="mobile-dark-mode-toggle"><i class="fas fa-adjust"></i><span id="mobile-dark-mode-text">Modo Escuro</span></a></li>
-                <li><a href="config.html" class="mobile-link"><i class="fas fa-cog"></i>Configurações</a></li>
+                <li><a href="#" class="mobile-link" id="mobile-dark-mode-toggle" onclick="gtag('event', 'click', {'event_category': 'ui_interaction', 'event_label': 'toggle_dark_mode_mobile'});"><i class="fas fa-adjust"></i><span id="mobile-dark-mode-text">Modo Escuro</span></a></li>
+                <li><a href="config.html" class="mobile-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'mobile_configuracoes'});"><i class="fas fa-cog"></i>Configurações</a></li>
             </ul>
         </div>
     </div>
@@ -155,12 +155,12 @@
            <h1 class="hero-title">Seu Site Ideal com <span class="highlight">Modelos Prontos</span> e Serviços Exclusivos</h1>
            <p class="hero-subtitle">Lumin Interactive combina modelos profissionais e atendimento personalizado para impulsionar sua presença digital.</p>
             <div class="hero-buttons">
-                <a href="#services" class="btn btn-primary hero-btn">Nossos Serviços</a>
-                <a href="#contact" class="btn btn-secondary hero-btn">Fale Conosco</a>
+                <a href="#services" class="btn btn-primary hero-btn" onclick="gtag('event', 'click', {'event_category': 'cta_click', 'event_label': 'hero_nossos_servicos'});">Nossos Serviços</a>
+                <a href="#contact" class="btn btn-secondary hero-btn" onclick="gtag('event', 'click', {'event_category': 'cta_click', 'event_label': 'hero_fale_conosco'});">Fale Conosco</a>
             </div>
         </div>
         <div class="hero-image reveal">
-            <img src="imagens/imagehome.png" alt="Ilustração de desenvolvimento web" class="hero-img" loading="lazy">
+            <img src="imagens/imagehome.webp" alt="Ilustração de desenvolvimento web" class="hero-img" loading="lazy">
             <div class="hero-shapes">
                 <div class="shape shape-1"></div>
                 <div class="shape shape-2"></div>
@@ -175,8 +175,8 @@
 
 <main>
     <!-- ============================================
-                SEÇÃO DE SERVIÇOS
-                ============================================ -->
+                      SEÇÃO DE SERVIÇOS
+                      ============================================ -->
     <section class="services" id="services">
         <div class="container">
             <div class="section-header reveal">
@@ -206,7 +206,7 @@
                         <span class="price animated-price" data-final-price="119.90">R$ 0,00</span>
                         <span class="price-note">Em 6x de R$19,98 sem juros</span>
                     </div>
-                    <a href="#" class="btn btn-primary">Quero esse serviço</a>
+                    <a href="#" class="btn btn-primary" onclick="gtag('event', 'select_content', {'event_category': 'service_engagement', 'event_label': 'quero_servico_remocao_virus'});">Quero esse serviço</a>
                 </div>
 
                 <!-- Serviço 2: Configuração de Firewall e Rede -->
@@ -230,7 +230,7 @@
                         <span class="price animated-price" data-final-price="1199.90">R$ 0,00</span>
                         <span class="price-note">Em 6x de R$199,98 sem juros</span>
                     </div>
-                    <a href="#" class="btn btn-primary">Quero esse serviço</a>
+                    <a href="#" class="btn btn-primary" onclick="gtag('event', 'select_content', {'event_category': 'service_engagement', 'event_label': 'quero_servico_firewall'});">Quero esse serviço</a>
                 </div>
 
                 <!-- Serviço 3: Reestruturação de Site -->
@@ -254,7 +254,7 @@
                         <span class="price animated-price" data-final-price="1049.90">R$ 0,00</span>
                         <span class="price-note">Em 6x de R$174,98 sem juros</span>
                     </div>
-                    <a href="#" class="btn btn-primary">Quero esse serviço</a>
+                    <a href="#" class="btn btn-primary" onclick="gtag('event', 'select_content', {'event_category': 'service_engagement', 'event_label': 'quero_servico_reestruturacao'});">Quero esse serviço</a>
                 </div>
             </div>
         </div>
@@ -273,7 +273,7 @@
         <div class="portfolio-grid">
             <!-- Item 1: E-commerce Pro (ATUALIZADO) -->
             <div class="portfolio-item reveal" 
-                 data-img="imagens/modelos/ecom-home.png" 
+                 data-img="imagens/modelos/ecom-home.webp" 
                  data-title="E-commerce Pro" 
                  data-description="Uma solução de e-commerce completa e pronta para vender. Com um design limpo e focado na experiência de compra, este modelo tem tudo o que você precisa para transformar visitantes em clientes." 
                  data-old-price="R$ 3.746,25"
@@ -283,10 +283,10 @@
                  data-discount="20% OFF"
                  data-category="ecommerce"
                  data-features="Carrinho de compras intuitivo,Integração com gateways de pagamento,Páginas de produto detalhadas,Sistema de busca e filtros,Painel de gerenciamento"
-                 data-images="imagens/modelos/ecom-home.png,imagens/modelos/ecom-categorias.png,imagens/modelos/ecom-novidades.png,imagens/modelos/ecom-vendidos.png,imagens/modelos/ecom-promocao.png,imagens/modelos/ecom.png,imagens/modelos/ecom-feedback.png">
+                 data-images="imagens/modelos/ecom-home.webp,imagens/modelos/ecom-categorias.webp,imagens/modelos/ecom-novidades.webp,imagens/modelos/ecom-vendidos.webp,imagens/modelos/ecom-promocao.webp,imagens/modelos/ecom.webp,imagens/modelos/ecom-feedback.webp">
                 
                 <div class="portfolio-image-container">
-                    <img src="imagens/modelos/ecom-home.png" alt="E-commerce Pro" class="portfolio-img" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/600x400/E83E8C/ffffff?text=E-commerce';">
+                    <img src="imagens/modelos/ecom-home.webp" alt="E-commerce Pro" class="portfolio-img" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/600x400/E83E8C/ffffff?text=E-commerce';">
                 </div>
                 <div class="portfolio-info">
                     <h3 class="portfolio-title">E-commerce Pro</h3>
@@ -299,13 +299,13 @@
                         <span class="price-main animated-price" data-final-price="2997.00">R$ 0,00</span>
                     </div>
                     <span class="price-installments">12x de R$ 249,75</span>
-                    <span class="btn btn-primary btn-acquire">Ver Detalhes</span>
+                    <span class="btn btn-primary btn-acquire" onclick="gtag('event', 'view_item', {'event_category': 'portfolio_interaction', 'event_label': 'ver_detalhes_ecommerce_pro'});">Ver Detalhes</span>
                 </div>
             </div>
 
             <!-- Item 2: Startup Vision (ATUALIZADO) -->
             <div class="portfolio-item reveal" 
-                 data-img="imagens/modelos/startup-home.png" 
+                 data-img="imagens/modelos/startup-home.webp" 
                  data-title="Startup Vision" 
                  data-description="Valide sua ideia e atraia investidores com uma página única, direta e moderna. Este modelo é perfeito para startups apresentarem seu pitch, time, produto e roadmap de forma clara e convincente." 
                  data-old-price="R$ 1.995,71"
@@ -315,10 +315,10 @@
                  data-discount="30% OFF"
                  data-category="sites"
                  data-features="Estrutura de Pitch Deck,Seção de time,Roadmap visual,Design inovador,Formulário para investidores"
-                 data-images="imagens/modelos/startup-home.png,imagens/modelos/startup-proposta.png,imagens/modelos/startup-equipe.png,imagens/modelos/startup-jornada.png,imagens/modelos/startup-contato.png">
+                 data-images="imagens/modelos/startup-home.webp,imagens/modelos/startup-proposta.webp,imagens/modelos/startup-equipe.webp,imagens/modelos/startup-jornada.webp,imagens/modelos/startup-contato.webp">
 
                 <div class="portfolio-image-container">
-                    <img src="imagens/modelos/startup-home.png" alt="Startup Vision" class="portfolio-img" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/600x400/6c63ff/ffffff?text=Startup+Vision';">
+                    <img src="imagens/modelos/startup-home.webp" alt="Startup Vision" class="portfolio-img" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/600x400/6c63ff/ffffff?text=Startup+Vision';">
                 </div>
                 <div class="portfolio-info">
                     <h3 class="portfolio-title">Startup Vision</h3>
@@ -331,13 +331,13 @@
                         <span class="price-main animated-price" data-final-price="1397.00">R$ 0,00</span>
                     </div>
                     <span class="price-installments">12x de R$ 116,42</span>
-                    <span class="btn btn-primary btn-acquire">Ver Detalhes</span>
+                    <span class="btn btn-primary btn-acquire" onclick="gtag('event', 'view_item', {'event_category': 'portfolio_interaction', 'event_label': 'ver_detalhes_startup_vision'});">Ver Detalhes</span>
                 </div>
             </div>
 
             <!-- Item 3: Boutique Digital (ATUALIZADO) -->
             <div class="portfolio-item reveal" 
-                 data-img="imagens/modelos/boutique-home.png" 
+                 data-img="imagens/modelos/boutique-home.webp" 
                  data-title="Boutique Digital" 
                  data-description="Venda estilo com um site que entende de moda. Este modelo é visualmente deslumbrante, criado para marcas de vestuário e acessórios que desejam contar uma história e criar uma experiência de compra única." 
                  data-old-price="R$ 4.114,12"
@@ -347,10 +347,10 @@
                  data-discount="15% OFF"
                  data-category="ecommerce"
                  data-features="Seção 'Lookbook',Lista de Desejos,Filtros específicos para moda,Integração com Instagram,Visualização rápida de produtos"
-                 data-images="imagens/modelos/boutique-home.png,imagens/modelos/boutique-colecao.png,imagens/modelos/boutique-lookbook.png,imagens/modelos/boutique-sacola.png">
+                 data-images="imagens/modelos/boutique-home.webp,imagens/modelos/boutique-colecao.webp,imagens/modelos/boutique-lookbook.webp,imagens/modelos/boutique-sacola.webp">
 
                 <div class="portfolio-image-container">
-                    <img src="imagens/modelos/boutique-home.png" alt="Boutique Digital" class="portfolio-img" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/600x400/28a745/ffffff?text=Boutique+Digital';">
+                    <img src="imagens/modelos/boutique-home.webp" alt="Boutique Digital" class="portfolio-img" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/600x400/28a745/ffffff?text=Boutique+Digital';">
                 </div>
                 <div class="portfolio-info">
                     <h3 class="portfolio-title">Boutique Digital</h3>
@@ -363,7 +363,7 @@
                         <span class="price-main animated-price" data-final-price="3497.00">R$ 0,00</span>
                     </div>
                        <span class="price-installments">12x de R$ 291,42</span>
-                    <span class="btn btn-primary btn-acquire">Ver Detalhes</span>
+                    <span class="btn btn-primary btn-acquire" onclick="gtag('event', 'view_item', {'event_category': 'portfolio_interaction', 'event_label': 'ver_detalhes_boutique_digital'});">Ver Detalhes</span>
                 </div>
             </div>
         </div>
@@ -383,7 +383,7 @@
             <h4>O que está incluso:</h4>
             <ul id="modal-features" class="service-features"></ul>
             <div id="modal-price" class="service-price"></div>
-            <a href="#" target="_blank" class="btn btn-primary modal-contact-btn">
+            <a href="#" target="_blank" class="btn btn-primary modal-contact-btn" onclick="gtag('event', 'generate_lead', {'event_category': 'lead_generation', 'event_label': 'whatsapp_solicitation_service_modal'});">
                 <i class="fab fa-whatsapp"></i> Solicitar via WhatsApp
             </a>
         </div>
@@ -391,7 +391,7 @@
 
     <!-- ============================================
          MODAL DE PORTFÓLIO (ESTRUTURA REVERTIDA E CORRIGIDA)
-        ============================================ -->
+         ============================================ -->
     <div id="portfolio-modal" class="modal-overlay">
         <div class="modal-container">
             <button class="modal-close-btn" aria-label="Fechar modal">&times;</button>
@@ -427,7 +427,7 @@
                     </div>
                 </div>
 
-                <a href="#" target="_blank" class="btn btn-primary modal-cta-btn">
+                <a href="#" target="_blank" class="btn btn-primary modal-cta-btn" onclick="gtag('event', 'generate_lead', {'event_category': 'lead_generation', 'event_label': 'whatsapp_solicitation_portfolio_modal'});">
                     <i class="fab fa-whatsapp"></i> Solicitar via WhatsApp
                 </a>
             </div>
@@ -582,9 +582,9 @@
                 </div>
                 
                 <div class="contact-social">
-                    <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" class="social-link" aria-label="Facebook" onclick="gtag('event', 'click', {'event_category': 'social_media', 'event_label': 'contact_facebook'});"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link" aria-label="Instagram" onclick="gtag('event', 'click', {'event_category': 'social_media', 'event_label': 'contact_instagram'});"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link" aria-label="WhatsApp" onclick="gtag('event', 'click', {'event_category': 'social_media', 'event_label': 'contact_whatsapp'});"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
             
@@ -617,7 +617,7 @@
                         <textarea id="message" name="message" rows="5" placeholder="Conte-nos sobre seu projeto..." required></textarea>
                     </div>
                     
-                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    <button type="submit" class="btn btn-primary" onclick="gtag('event', 'generate_lead', {'event_category': 'form_submission', 'event_label': 'contact_form_submit'});">Enviar Mensagem</button>
                 </form>
             </div>
         </div>
@@ -634,42 +634,42 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-about">
-                    <a href="index.html" class="footer-logo">
-                        <img src="imagens/logobrancalumin.png" alt="Lumin Interactive Logo" class="footer-logo-img">
+                    <a href="index.html" class="footer-logo" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_logo'});">
+                        <img src="imagens/logobrancalumin.webp" alt="Lumin Interactive Logo" class="footer-logo-img">
                         <span class="logo-text">Lumin Interactive</span>
                     </a>
                     <p>Transformando ideias em experiências digitais memoráveis.</p>
                     <div class="footer-social">
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/lumin.interactive/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="https://wa.me/5567996030671" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="Facebook" onclick="gtag('event', 'click', {'event_category': 'social_media', 'event_label': 'footer_facebook'});"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/lumin.interactive/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" onclick="gtag('event', 'click', {'event_category': 'social_media', 'event_label': 'footer_instagram'});"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/5567996030671" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" onclick="gtag('event', 'click', {'event_category': 'social_media', 'event_label': 'footer_whatsapp'});"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
                 <div class="footer-links">
                     <h3>Links Rápidos</h3>
                     <ul>
-                        <li><a href="index.html">Início</a></li>
-                        <li><a href="servicos.html">Serviços</a></li>
-                        <li><a href="portfolio.html">Modelos</a></li>
-                        <li><a href="sobre.html">Sobre Nós</a></li>
-                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="index.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_nav_inicio'});">Início</a></li>
+                        <li><a href="servicos.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_nav_servicos'});">Serviços</a></li>
+                        <li><a href="portfolio.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_nav_modelos'});">Modelos</a></li>
+                        <li><a href="sobre.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_nav_sobre'});">Sobre Nós</a></li>
+                        <li><a href="contato.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_nav_contato'});">Contato</a></li>
                     </ul>
                 </div>
                 <div class="footer-services">
                     <h3>Nossos Serviços</h3>
                     <ul>
-                        <li><a href="servicos.html">Reestruturação de Site</a></li>
-                        <li><a href="servicos.html">Manutenção Preventiva</a></li>
-                        <li><a href="servicos.html">Remoção de Vírus e Malware</a></li>
-                        <li><a href="servicos.html">Configuração de Firewall e Rede</a></li>
+                        <li><a href="servicos.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_servico_reestruturacao'});">Reestruturação de Site</a></li>
+                        <li><a href="servicos.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_servico_manutencao'});">Manutenção Preventiva</a></li>
+                        <li><a href="servicos.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_servico_remocao_virus'});">Remoção de Vírus e Malware</a></li>
+                        <li><a href="servicos.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_servico_firewall'});">Configuração de Firewall e Rede</a></li>
                     </ul>
                 </div>
                 <div class="footer-contact">
                     <h3>Contato</h3>
                     <ul>
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:contato@lumininteractive.com.br">contato@lumininteractive.com.br</a></li>
-                        <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/5567996030671" target="_blank" rel="noopener noreferrer">(67) 99603-0671</a></li>
-                        <li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/lumin.interactive/" target="_blank" rel="noopener noreferrer">@lumin.interactive</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:contato@lumininteractive.com.br" onclick="gtag('event', 'click', {'event_category': 'contact', 'event_label': 'footer_email'});">contato@lumininteractive.com.br</a></li>
+                        <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/5567996030671" target="_blank" rel="noopener noreferrer" onclick="gtag('event', 'click', {'event_category': 'contact', 'event_label': 'footer_whatsapp_contato'});">(67) 99603-0671</a></li>
+                        <li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/lumin.interactive/" target="_blank" rel="noopener noreferrer" onclick="gtag('event', 'click', {'event_category': 'contact', 'event_label': 'footer_instagram_contato'});">@lumin.interactive</a></li>
                     </ul>
                 </div>
             </div>
@@ -677,15 +677,15 @@
                 <p>&copy; <span id="current-year">2025</span> Lumin Interactive. Todos os direitos reservados.</p>
                 <p>CNPJ: 62.601.543/0001-11</p>
                 <div class="footer-legal">
-                    <a href="privacidade.html">Política de Privacidade</a>
-                    <a href="termos.html">Termos de Serviço</a>
+                    <a href="privacidade.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_politica_privacidade'});">Política de Privacidade</a>
+                    <a href="termos.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_termos_servico'});">Termos de Serviço</a>
                 </div>
             </div>
         </div>
     </footer>
 
 <!-- Botão Voltar ao Topo -->
-<a href="#home" class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+<a href="#home" class="back-to-top" id="backToTop" aria-label="Voltar ao topo" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'back_to_top'});">
     <i class="fas fa-arrow-up"></i>
 </a>
 
@@ -705,7 +705,7 @@
                 </p>
             </div>
             <div class="cookie-banner-actions">
-                <button id="cookie-acknowledge-btn" class="cookie-btn-primary">Entendi</button>
+                <button id="cookie-acknowledge-btn" class="cookie-btn-primary" onclick="gtag('event', 'click', {'event_category': 'cookie_consent', 'event_label': 'cookie_banner_acknowledged'});">Entendi</button>
             </div>
         </div>
     </div>
@@ -734,4 +734,3 @@
 
 </body>
 </html>
-

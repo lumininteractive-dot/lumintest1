@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <!-- Google Consent Mode - Default Settings -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('consent', 'default', {
+            'ad_storage': 'denied',
+            'ad_user_data': 'denied',
+            'ad_personalization': 'denied',
+            'analytics_storage': 'denied'
+        });
+    </script>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-43JY2MX5EN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-43JY2MX5EN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'G-43JY2MX5EN');
-</script>
+      gtag('config', 'G-43JY2MX5EN');
+    </script>
 
     <!-- Metadados Essenciais -->
     <meta charset="UTF-8">
@@ -27,18 +38,18 @@
     <meta property="og:description" content="Conheça a história e a equipe da Lumin Interactive. Somos apaixonados por tecnologia e dedicados a criar soluções digitais incríveis.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.lumininteractive.com.br/sobre/">
-    <meta property="og:image" content="imagens/logobrancalumin.png">
+    <meta property="og:image" content="imagens/logobrancalumin.webp">
     <meta property="og:locale" content="pt_BR">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Sobre Nós | Lumin Interactive">
     <meta name="twitter:description" content="Conheça a história e a equipe da Lumin Interactive. Somos apaixonados por tecnologia e dedicados a criar soluções digitais incríveis.">
-    <meta name="twitter:image" content="imagens/logobrancalumin.png">
+    <meta name="twitter:image" content="imagens/logobrancalumin.webp">
 
     <!-- Favicons -->
-    <link rel="icon" href="imagens/logobrancalumin.png" type="image/png">
-    <link rel="apple-touch-icon" href="imagens/logobrancalumin.png" sizes="180x180">
+    <link rel="icon" href="imagens/luminazul.webp" type="image.webp">
+    <link rel="apple-touch-icon" href="imagens/luminazul.webp" sizes="180x180">
 
     <!-- Cor da Barra de Endereço (Mobile) -->
     <meta name="theme-color" content="#1a1a1a">
@@ -99,36 +110,36 @@
     <div class="container">
         <div class="header-inner">
             <!-- Logo à esquerda -->
-            <a href="/" class="logo">
+            <a href="/" class="logo" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'header_logo_sobre'});">
                 <!-- Otimização: Adicionado width, height e decoding="async" para a imagem do logo -->
-                <img src="imagens/logobrancalumin.png" alt="Lumin Interactive Logo" class="logo-image" style="height: 60px;" width="240" height="60" decoding="async">
+                <img src="imagens/logobrancalumin.webp" alt="Lumin Interactive Logo" class="logo-image" style="height: 60px;" width="240" height="60" decoding="async">
                 <span class="logo-text">Lumin Interactive</span>
             </a>
 
             <!-- Navegação central (visível apenas no desktop) -->
             <nav class="nav-center" id="main-nav">
                 <ul class="nav-menu">
-                    <li><a href="index.html" class="nav-link">Inicio</a></li>
-                    <li><a href="servicos.html" class="nav-link">Serviços</a></li>
-                    <li><a href="portfolio.html" class="nav-link">Modelos</a></li>
-                    <li><a href="sobre.html" class="nav-link active">Sobre Nós</a></li>
-                    <li><a href="contato.html" class="nav-link">Contato</a></li>
+                    <li><a href="index.html" class="nav-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'header_nav_inicio_sobre'});">Inicio</a></li>
+                    <li><a href="servicos.html" class="nav-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'header_nav_servicos_sobre'});">Serviços</a></li>
+                    <li><a href="portfolio.html" class="nav-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'header_nav_modelos_sobre'});">Modelos</a></li>
+                    <li><a href="sobre.html" class="nav-link active" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'header_nav_sobre_sobre'});">Sobre Nós</a></li>
+                    <li><a href="contato.html" class="nav-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'header_nav_contato_sobre'});">Contato</a></li>
                 </ul>
             </nav>
 
             <!-- Ações e Menu à Direita (Desktop) -->
             <div class="header-right-side">
-                <a href="orcamento.html" class="btn btn-primary free-quote-btn">Orçamento Grátis</a>
+                <a href="orcamento.html" class="btn btn-primary free-quote-btn" onclick="gtag('event', 'click', {'event_category': 'cta_click', 'event_label': 'header_orcamento_gratis_sobre'});">Orçamento Grátis</a>
                 <div class="settings-menu" id="settings-menu">
                     <button class="settings-toggle" id="settings-toggle" aria-label="Abrir opções">
                         <i class="fas fa-ellipsis-v"></i>
                     </button>
                     <div class="settings-dropdown">
-                        <a href="#" class="dropdown-item" id="dark-mode-toggle">
+                        <a href="#" class="dropdown-item" id="dark-mode-toggle" onclick="gtag('event', 'click', {'event_category': 'ui_interaction', 'event_label': 'toggle_dark_mode_desktop_sobre'});">
                             <i class="fas fa-adjust"></i>
                             <span id="dark-mode-text">Modo Escuro</span>
                         </a>
-                        <a href="config.html" class="dropdown-item">
+                        <a href="config.html" class="dropdown-item" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'header_configuracoes_sobre'});">
                             <i class="fas fa-cog"></i>
                             <span>Configurações</span>
                         </a>
@@ -147,17 +158,17 @@
     <div class="mobile-nav" id="mobile-nav">
         <div class="mobile-nav-content">
             <ul class="mobile-menu">
-                <li><a href="index.html" class="mobile-link"><i class="fas fa-home"></i>Inicio</a></li>
-                <li><a href="servicos.html" class="mobile-link"><i class="fas fa-briefcase"></i>Serviços</a></li>
-                <li><a href="portfolio.html" class="mobile-link"><i class="fas fa-layer-group"></i>Modelos</a></li>
-                <li><a href="sobre.html" class="mobile-link active"><i class="fas fa-users"></i>Sobre Nós</a></li>
-                <li><a href="contato.html" class="mobile-link"><i class="fas fa-envelope"></i>Contato</a></li>
-                <li><a href="orcamento.html" class="btn btn-primary mobile-btn">Orçamento Grátis</a></li>
+                <li><a href="index.html" class="mobile-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'mobile_nav_inicio_sobre'});"><i class="fas fa-home"></i>Inicio</a></li>
+                <li><a href="servicos.html" class="mobile-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'mobile_nav_servicos_sobre'});"><i class="fas fa-briefcase"></i>Serviços</a></li>
+                <li><a href="portfolio.html" class="mobile-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'mobile_nav_modelos_sobre'});"><i class="fas fa-layer-group"></i>Modelos</a></li>
+                <li><a href="sobre.html" class="mobile-link active" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'mobile_nav_sobre_sobre'});"><i class="fas fa-users"></i>Sobre Nós</a></li>
+                <li><a href="contato.html" class="mobile-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'mobile_nav_contato_sobre'});"><i class="fas fa-envelope"></i>Contato</a></li>
+                <li><a href="orcamento.html" class="btn btn-primary mobile-btn" onclick="gtag('event', 'click', {'event_category': 'cta_click', 'event_label': 'mobile_orcamento_gratis_sobre'});">Orçamento Grátis</a></li>
             </ul>
             <div class="mobile-nav-divider"></div>
             <ul class="mobile-menu">
-                <li><a href="#" class="mobile-link" id="mobile-dark-mode-toggle"><i class="fas fa-adjust"></i><span id="mobile-dark-mode-text">Modo Escuro</span></a></li>
-                <li><a href="config.html" class="mobile-link"><i class="fas fa-cog"></i>Configurações</a></li>
+                <li><a href="#" class="mobile-link" id="mobile-dark-mode-toggle" onclick="gtag('event', 'click', {'event_category': 'ui_interaction', 'event_label': 'toggle_dark_mode_mobile_sobre'});"><i class="fas fa-adjust"></i><span id="mobile-dark-mode-text">Modo Escuro</span></a></li>
+                <li><a href="config.html" class="mobile-link" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'mobile_configuracoes_sobre'});"><i class="fas fa-cog"></i>Configurações</a></li>
             </ul>
         </div>
     </div>
@@ -186,14 +197,14 @@
                 </div>
             </div>
                     <div class="hero-cta">
-                        <a href="#nossa-equipe" class="btn btn-primary btn-lg pulse">Nossa Equipe <i class="fas fa-arrow-down"></i></a>
-                        <a href="#valores" class="btn btn-secondary btn-lg">Nossos Valores</a>
+                        <a href="#nossa-equipe" class="btn btn-primary btn-lg pulse" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'hero_nossa_equipe_sobre'});">Nossa Equipe <i class="fas fa-arrow-down"></i></a>
+                        <a href="#valores" class="btn btn-secondary btn-lg" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'hero_nossos_valores_sobre'});">Nossos Valores</a>
                     </div>
                 </div>
                 <div class="hero-media fade-in-element">
                     <div class="hero-image-wrapper">
                         <!-- Otimização: Adicionado width, height e decoding="async" para a imagem principal -->
-                        <img src="imagens/sobreimagem.png" alt="Equipe Lumin Interactive" class="hero-image" width="600" height="400" decoding="async" onerror="this.onerror=null;this.src='https://placehold.co/600x400/cccccc/FFFFFF?text=Imagem+Indisponível';">
+                        <img src="imagens/sobreimagem.webp" alt="Equipe Lumin Interactive" class="hero-image" width="600" height="400" decoding="async" onerror="this.onerror=null;this.src='https://placehold.co/600x400/cccccc/FFFFFF?text=Imagem+Indisponível';">
                     </div>
                 </div>
             </div>
@@ -227,8 +238,8 @@
                                 <span><i class="fas fa-lightbulb"></i> Inovação</span>
                             </div>
                             <div class="founder-social">
-                                  <a href="https://www.instagram.com/luizfernandolima0/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                                <a href="#" aria-label="Github"><i class="fab fa-github"></i></a>
+                                 <a href="https://www.instagram.com/luizfernandolima0/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" onclick="gtag('event', 'click', {'event_category': 'social_media', 'event_label': 'team_instagram_luiz_sobre'});"><i class="fab fa-instagram"></i></a>
+                                <a href="#" aria-label="Github" onclick="gtag('event', 'click', {'event_category': 'social_media', 'event_label': 'team_github_luiz_sobre'});"><i class="fab fa-github"></i></a>
                             </div>
                         </div>
                     </div>
@@ -252,8 +263,8 @@
                                 <span><i class="fas fa-briefcase"></i> Gestão</span>
                             </div>
                             <div class="founder-social">
-                                 <a href="https://www.instagram.com/breno.deps/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                                <a href="#" aria-label="Github"><i class="fab fa-github"></i></a>
+                                <a href="https://www.instagram.com/breno.deps/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" onclick="gtag('event', 'click', {'event_category': 'social_media', 'event_label': 'team_instagram_breno_sobre'});"><i class="fab fa-instagram"></i></a>
+                                <a href="#" aria-label="Github" onclick="gtag('event', 'click', {'event_category': 'social_media', 'event_label': 'team_github_breno_sobre'});"><i class="fab fa-github"></i></a>
                             </div>
                         </div>
                     </div>
@@ -261,7 +272,7 @@
 
                 <!-- Citação da Filosofia -->
                 <div class="philosophy-statement fade-in-element">
-                       <div class="philosophy-icon"><i class="fas fa-quote-left"></i></div>
+                        <div class="philosophy-icon"><i class="fas fa-quote-left"></i></div>
                     <p>"Unimos a lógica e a criatividade para construir o futuro digital. Acreditamos que um sistema robusto ganha vida através de interfaces bem pensadas. Nosso compromisso é tornar a tecnologia acessível, funcional e impactante para qualquer negócio."</p>
                     <span><strong>Lumin Interactive</strong> - Nossa Filosofia</span>
                 </div>
@@ -316,42 +327,42 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-about">
-                    <a href="index.html" class="footer-logo">
-                        <img src="imagens/logobrancalumin.png" alt="Lumin Interactive Logo" class="footer-logo-img">
+                    <a href="index.html" class="footer-logo" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_logo_sobre'});">
+                        <img src="imagens/logobrancalumin.webp" alt="Lumin Interactive Logo" class="footer-logo-img">
                         <span class="logo-text">Lumin Interactive</span>
                     </a>
                     <p>Transformando ideias em experiências digitais memoráveis.</p>
                     <div class="footer-social">
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/lumin.interactive/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="https://wa.me/5567996030671" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="Facebook" onclick="gtag('event', 'click', {'event_category': 'social_media', 'event_label': 'footer_facebook_sobre'});"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/lumin.interactive/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" onclick="gtag('event', 'click', {'event_category': 'social_media', 'event_label': 'footer_instagram_sobre'});"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/5567996030671" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" onclick="gtag('event', 'click', {'event_category': 'social_media', 'event_label': 'footer_whatsapp_sobre'});"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
                 <div class="footer-links">
                     <h3>Links Rápidos</h3>
                     <ul>
-                        <li><a href="index.html">Início</a></li>
-                        <li><a href="servicos.html">Serviços</a></li>
-                        <li><a href="portfolio.html">Modelos</a></li>
-                        <li><a href="sobre.html">Sobre Nós</a></li>
-                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="index.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_nav_inicio_sobre'});">Início</a></li>
+                        <li><a href="servicos.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_nav_servicos_sobre'});">Serviços</a></li>
+                        <li><a href="portfolio.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_nav_modelos_sobre'});">Modelos</a></li>
+                        <li><a href="sobre.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_nav_sobre_sobre'});">Sobre Nós</a></li>
+                        <li><a href="contato.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_nav_contato_sobre'});">Contato</a></li>
                     </ul>
                 </div>
                 <div class="footer-services">
                     <h3>Nossos Serviços</h3>
                     <ul>
-                        <li><a href="servicos.html">Reestruturação de Site</a></li>
-                        <li><a href="servicos.html">Manutenção Preventiva</a></li>
-                        <li><a href="servicos.html">Remoção de Vírus e Malware</a></li>
-                        <li><a href="servicos.html">Configuração de Firewall e Rede</a></li>
+                        <li><a href="servicos.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_servico_reestruturacao_sobre'});">Reestruturação de Site</a></li>
+                        <li><a href="servicos.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_servico_manutencao_sobre'});">Manutenção Preventiva</a></li>
+                        <li><a href="servicos.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_servico_remocao_virus_sobre'});">Remoção de Vírus e Malware</a></li>
+                        <li><a href="servicos.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_servico_firewall_sobre'});">Configuração de Firewall e Rede</a></li>
                     </ul>
                 </div>
                 <div class="footer-contact">
                     <h3>Contato</h3>
                     <ul>
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:contato@lumininteractive.com.br">contato@lumininteractive.com.br</a></li>
-                        <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/5567996030671" target="_blank" rel="noopener noreferrer">(67) 99603-0671</a></li>
-                        <li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/lumin.interactive/" target="_blank" rel="noopener noreferrer">@lumin.interactive</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:contato@lumininteractive.com.br" onclick="gtag('event', 'click', {'event_category': 'contact', 'event_label': 'footer_email_sobre'});">contato@lumininteractive.com.br</a></li>
+                        <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/5567996030671" target="_blank" rel="noopener noreferrer" onclick="gtag('event', 'click', {'event_category': 'contact', 'event_label': 'footer_whatsapp_contato_sobre'});">(67) 99603-0671</a></li>
+                        <li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/lumin.interactive/" target="_blank" rel="noopener noreferrer" onclick="gtag('event', 'click', {'event_category': 'contact', 'event_label': 'footer_instagram_contato_sobre'});">@lumin.interactive</a></li>
                     </ul>
                 </div>
             </div>
@@ -359,8 +370,8 @@
                 <p>&copy; <span id="current-year">2025</span> Lumin Interactive. Todos os direitos reservados.</p>
                 <p>CNPJ: 62.601.543/0001-11</p>
                 <div class="footer-legal">
-                    <a href="privacidade.html">Política de Privacidade</a>
-                    <a href="termos.html">Termos de Serviço</a>
+                    <a href="privacidade.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_politica_privacidade_sobre'});">Política de Privacidade</a>
+                    <a href="termos.html" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'footer_termos_servico_sobre'});">Termos de Serviço</a>
                 </div>
             </div>
         </div>
@@ -368,7 +379,7 @@
 
 
     <!-- Botão Voltar ao Topo -->
-    <a href="#" class="back-to-top" id="back-to-top">
+    <a href="#" class="back-to-top" id="back-to-top" onclick="gtag('event', 'click', {'event_category': 'navigation', 'event_label': 'back_to_top_sobre'});">
         <i class="fas fa-arrow-up"></i>
     </a>
 
@@ -383,7 +394,7 @@
                 </p>
             </div>
             <div class="cookie-banner-actions">
-                <button id="cookie-acknowledge-btn" class="cookie-btn-primary">Entendi</button>
+                <button id="cookie-acknowledge-btn" class="cookie-btn-primary" onclick="gtag('event', 'click', {'event_category': 'cookie_consent', 'event_label': 'cookie_banner_acknowledged_sobre'});">Entendi</button>
             </div>
         </div>
     </div>
@@ -392,7 +403,7 @@
     <script src="js/global.js" defer></script> 
     <script src="js/cookies.js" defer></script>
 
-      <!-- REGISTRO DO SERVICE WORKER (PARA CACHE E OFFLINE) -->
+     <!-- REGISTRO DO SERVICE WORKER (PARA CACHE E OFFLINE) -->
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
@@ -408,4 +419,3 @@
     </script>
 </body>
 </html>
-
